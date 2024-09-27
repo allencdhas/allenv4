@@ -12,7 +12,7 @@ export default function Landing() {
       <div className="relative p-6 flex justify-center items-center min-h-screen">
         <div className="py-4 mx-auto w-2xl max-w-2xl">
           <Layout />
-          <div className="">
+          <div>
             <h2 className="text-4xl pt-6 font-bold tracking-tight text-white pb-6">
               Well Hello! I'm Allen
             </h2>
