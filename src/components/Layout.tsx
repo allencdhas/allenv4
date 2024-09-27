@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import pfp from "../app/pfpAllen.png";
 
 export default function Layout() {
   return (
@@ -9,7 +10,7 @@ export default function Layout() {
           {/*<span className="text-3xl text-white font-bold">Allen</span> */}
           <div className="pr-6">
             <Image
-              src="/pfpAllen.png"
+              src={pfp}
               width={49}
               height={49}
               style={{
